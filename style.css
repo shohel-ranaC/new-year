@@ -1,0 +1,289 @@
+/* header section css starts here */
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+.header-container {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./images/banner/banner1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.header-content {
+  width: 40%;
+  height: auto;
+  margin-right: 180px;
+  text-align: right;
+}
+
+.header-content h1 {
+  font-size: 60px;
+  color: #151414;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.header-content p {
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.contact-btn {
+  width: 140px;
+  height: 50px;
+  background-color: #f15b22;
+  border-radius: 5px;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+}
+.contact-btn:hover {
+  background-color: #ee855c;
+}
+/* header section css end here */
+
+/* my failure & previous section css start */
+.failure-container {
+  width: 100%;
+  height: 100vh;
+}
+.failure {
+  width: 1000px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 180px;
+  gap: 100px;
+}
+.failure-image img {
+  width: 450px;
+  height: 570px;
+}
+.failure-image {
+  width: 450px;
+  height: 570px;
+  display: flex;
+  position: relative;
+}
+.failure-image .background-circle {
+  background-color: #f1cdbf;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  width: 435px;
+  height: 415px;
+  z-index: -1;
+}
+.failure-content {
+  margin-top: 100px;
+}
+.failure-content h3 {
+  font-size: 35px;
+  color: #151414;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.failure-content p {
+  font-size: 17px;
+  color: #444343;
+}
+.content-style {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.content-inner-style {
+  display: flex;
+  gap: 15px;
+}
+.content-inner-style i {
+  color: #16d887;
+}
+/* my failure & previous section css end */
+
+/* my plan section css start here */
+.my-plan-container {
+  margin: 50px 180px;
+}
+.heading-title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #151414;
+  margin: 50px 0;
+  margin-top: 100px;
+}
+.plan-card-container {
+  display: flex;
+  justify-content: space-around;
+}
+.plan-card-container h4 {
+  font-size: 20px;
+  color: #151414;
+  font-weight: 600;
+}
+.plan-card-container p {
+  font-size: 16px;
+  color: #444343;
+}
+.plan-card-container .plan-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+/* my plan section css end here */
+
+/* Limitation section css start here */
+.limitation-container {
+  background-color: #eec5b5;
+  border-radius: 5px;
+  padding: 100px;
+  margin: 100px 180px;
+  text-align: center;
+}
+.limitation-container h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #151414;
+  margin: 30px 0;
+}
+.limitation-content h3 {
+  color: #151414;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.limitation-content p {
+  color: #444343;
+  font-size: 16px;
+}
+/* Limitation section css end here */
+
+/* positive banner section css start here */
+.positive-container {
+  margin: 100px 180px;
+}
+.positive-banner {
+  background-image: linear-gradient(to right, #f15b22, rgba(247, 245, 245, 0.1)),
+    url("./images/watch.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  border-radius: 5px;
+}
+.positive-banner h4 {
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+.call-now-btn {
+  background-color: white;
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: 40px;
+  border: none;
+  cursor: pointer;
+}
+.call-now-btn:hover {
+  background-color: #f15b22;
+  color: white;
+}
+/* positive banner section css end here */
+
+/* footer section css start here */
+footer {
+  background-color: #151414;
+  width: 100%;
+  height: 55vh;
+}
+.footer-container {
+  margin: 50px 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  height: 50vh;
+}
+.footer-left-content h3 {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.footer-left-content p {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+.social-icon {
+  display: flex;
+  gap: 10px;
+}
+.social-icon img {
+  width: 40px;
+}
+.footer-right-content h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.footer-right-content {
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+.footer-right-content input {
+  width: 100%;
+  height: 25px;
+  background-color: #151414;
+  padding: 10px;
+  border: 2px solid white;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+input::placeholder {
+  color: white;
+}
+.subscribe-btn {
+  background-color: white;
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
+  color: #f15b22;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.subscribe-btn:hover {
+  background-color: #f15b22;
+  color: white;
+}
+/* footer section css end here */
